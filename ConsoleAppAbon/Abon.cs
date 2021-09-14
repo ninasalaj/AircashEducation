@@ -9,6 +9,7 @@ namespace ConsoleAppAbon
     public class Abon
     {
         public string SerialNumber { get; set; }
+        public decimal Amount { get; set; }
         public string CouponCode { get; set; }
     }
 }
